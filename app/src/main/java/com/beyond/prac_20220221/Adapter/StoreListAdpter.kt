@@ -10,7 +10,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.fragment.app.FragmentManager
+import com.beyond.prac_20220221.DitailPizzaActivity
 import com.beyond.prac_20220221.Model.StoreListModel
 import com.beyond.prac_20220221.R
 import com.bumptech.glide.Glide
@@ -100,6 +102,17 @@ class StoreListAdpter(val mContext : Context, val resId : Int, val mList : Array
 
         Glide.with(mContext).load("${data.profile}").into(StoreImg)
         Log.d("힝",data.profile[position].toString())
+
+        storeName?.setOnClickListener {
+            val intent = Intent(context, DitailPizzaActivity::class.java)
+
+            intent.putExtra("name", data.name)
+            intent.putExtra("callNum", data.phoneNum)
+            intent.putExtra("profile", data.profile)
+            intent.putExtra("starlight", data.starPoint.toString())
+
+            context.startActivity(intent)
+        }
 
         btn_call?.setOnClickListener {
             Btn()

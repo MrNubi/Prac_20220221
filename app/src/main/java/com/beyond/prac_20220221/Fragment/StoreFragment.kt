@@ -50,7 +50,7 @@ class StoreFragment : Fragment() {
                 list_lv_store.adapter = storeAdapter
 
 
-        list_lv_store.setOnItemClickListener { adapterView, view, i, l ->
+        list_lv_store.setOnItemClickListener(){ adapterView, view, i, l ->
 
             val intent = Intent(requireContext(), DitailPizzaActivity::class.java)
 
