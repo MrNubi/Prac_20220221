@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/rating_wrap_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageView
+                   android:scaleType="fitXY"
+
+                    android:id="@+id/img_store"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/mung"
+                   />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/text_storeName"
+                        android:textSize="30sp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가게 이름"/>
+                    <RatingBar
+
+                        android:id="@+id/rating_shuttingStar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:rating="5"
+                        android:numStars="5"
+                        android:stepSize="1"
+                        android:isIndicator="true"
+                        style="@style/Widget.AppCompat.RatingBar"/>
+                </LinearLayout>
+
+                <!--        <com.github.chrisbanes.photoview.PhotoView-->
+                <!--            android:src="@drawable/nyang"-->
+                <!--            android:id="@+id/photo_view"-->
+                <!--            android:layout_weight="1"-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="wrap_content"/>-->
+
+
+
+
+                <TextView
+                    android:textSize="30sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="멍"></TextView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:src="@drawable/phone_icon"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"></ImageView>
+
+                <TextView
+                    android:id="@+id/num_storePhoneNum"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01026467422"></TextView>
+
+                <TextView
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""></TextView>
+
+                <Button
+                    android:id="@+id/btn_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call"></Button>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New/Prac_20220221/app/src/main/res/layout/activity_ditail_pizza.xml" value="0.1421875" />
+        <entry key="..\:/New/Prac_20220221/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/New/Prac_20220221/app/src/main/res/layout/activity_suplex.xml" value="0.14322916666666666" />
+        <entry key="..\:/New/Prac_20220221/app/src/main/res/layout/dialog_edit_nick.xml" value="0.13541666666666666" />
+        <entry key="..\:/New/Prac_20220221/app/src/main/res/layout/fragment_mypage.xml" value="0.25" />
+        <entry key="..\:/New/Prac_20220221/app/src/main/res/layout/fragment_store.xml" value="0.13958333333333334" />
+        <entry key="..\:/New/Prac_20220221/app/src/main/res/layout/item_list_of_store.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/jeahu/.gradle/caches/transforms-3/f151290c6ded99e73cc30cce4233ae32/transformed/core-1.7.0/res/layout/custom_dialog.xml" value="0.13541666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
